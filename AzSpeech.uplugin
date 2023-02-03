@@ -21,7 +21,12 @@
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [
 				"Win64",
-				"Android"
+				"Android",
+				"HoloLens",
+				"Linux",
+				"LinuxArm64",
+				"Mac",
+				"IOS"
 			]
 		}
 	],

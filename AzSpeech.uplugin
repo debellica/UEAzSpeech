@@ -12,7 +12,7 @@
 	"SupportURL": "https://github.com/lucoiso/UEAzSpeech/issues",
 	"CanContainContent": false,
 	"IsBetaVersion": true,
-	"IsExperimentalVersion": false,
+	"IsExperimentalVersion": true,
 	"Installed": false,
 	"Modules": [
 		{

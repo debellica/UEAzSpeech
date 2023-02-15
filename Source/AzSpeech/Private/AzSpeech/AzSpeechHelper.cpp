@@ -17,6 +17,10 @@
 #include <AndroidPermissionFunctionLibrary.h>
 #endif
 
+#ifdef UE_INLINE_GENERATED_CPP_BY_NAME
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AzSpeechHelper)
+#endif
+
 const FString UAzSpeechHelper::QualifyPath(const FString& Path)
 {
 	FString Output = Path;
@@ -303,5 +307,5 @@ const bool UAzSpeechHelper::IsAudioInputDeviceIDValid(const FString& DeviceID)
 
 const FString UAzSpeechHelper::GetAzSpeechLogsBaseDir()
 {
-	return FPaths::Combine(*FPaths::ProjectLogDir(), TEXT("UEAzSpeech"));
+	return FPaths::Combine(*FPaths::ProjectLogDir(), TEXT("AzSpeech"));
 }
